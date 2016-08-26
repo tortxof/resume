@@ -1,0 +1,104 @@
+---
+layout: default
+---
+<div class="header">
+  <h1 class="name">Daniel Jones</h1>
+  <h2 class="profession">Full-Stack Web Developer</h2>
+  <div class="contact">
+    <div class="email">
+      <a href="mailto:tortxof@gmail.com">tortxof@gmail.com</a>
+    </div>
+    <div class="phone">
+      <a href="tel:+18644317998">864-431-7998</a>
+    </div>
+    <div class="portfolio">
+      <a href="https://portfolio.djones.co">portfolio.djones.co</a>
+    </div>
+    <div class="github">
+      <a href="https://github.com/tortxof">github.com/tortxof</a>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="left">
+    <div class="about">
+      <h3>About</h3>
+      {% markdown about.md %}
+      <h3>Education</h3>
+      <p>FreeCodeCamp Front End Development Certificate (Nov 2015 &mdash; Aug 2016)</p>
+      <h3>Work History</h3>
+      <h4>2003 &mdash; Present: Computer Trends</h4>
+      <p>
+        <strong>Computer Technician</strong>
+        <br>
+        Responsibilities include: Computer hardware diagnostics and
+        troubleshooting. Computer hardware upgrades. OS installation and
+        upgrades (Windows, Mac, Linux). Malware detection and removal. Customer
+        service and remote support. System integration of new computer systems.
+        Data recovery from corrupted file systems and malfunctioning hardware.
+        Migration of customer data to new systems. Design, deployment, and
+        maintenance of company website. Deployment and maintenance of email
+        servers.
+      </p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Sass</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Handlebars</li>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>Django</li>
+        <li>SQLite</li>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>peewee ORM</li>
+        <li>Linux</li>
+        <li>BASH</li>
+        <li>Git</li>
+        <li>Docker</li>
+        <li>NGINX</li>
+        <li>Apache</li>
+      </ul>
+    </div>
+    <div class="projects">
+      <h3>Projects</h3>
+      <h4>rc-club-members</h4>
+      <p>
+        A Flask application for managing the membership roster of an RC club.
+        JSON import and export. Search using sqlite3 full text search (FTS4).
+        Mass email using the Mailgun API. Email based secure passwordless login.
+        CSV and XLSX export of roster. Uses the Flask framework and peewee ORM.
+        Deployed with Docker behind an nginx uwsgi proxy.
+        <br>
+        GitHub: <a href="https://github.com/tortxof/rc-club-members">tortxof/rc-club-members</a>
+      </p>
+      <h4>flask-signup</h4>
+      <p>
+        Publicly-available self-serve form handling back-end. The user retrieves
+        a key pair, then uses the form key in their HTML forms. User can then
+        use their secret key to retrieve submitted form data. Web and JSON
+        interfaces. Flask framework and peewee ORM. Deployed with Docker behind
+        an nginx reverse proxy.
+        <br>
+        GitHub: <a href="https://github.com/tortxof/flask-signup">tortxof/flask-signup</a>
+        <br>
+        Live: <a href="https://signup.djones.co/">signup.djones.co</a>
+      </p>
+      <h4>Simon</h4>
+      <p>
+        A reproduction of the classic Simon game in JavaScript. Built for
+        FreeCodeCamp.
+        <br>
+        CodePen: <a href="http://codepen.io/tortxof/full/vGVdWL/">codepen.io/tortxof/full/vGVdWL</a>
+      </p>
+    </div>
+  </div>
+</div>

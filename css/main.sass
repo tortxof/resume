@@ -3,16 +3,33 @@
 @charset "utf-8"
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700'
 
+html
+  font-size: 12pt
+
 body
   font-family: 'Lato', sans-serif
   font-weight: 400
-  font-size: 12pt
+  margin: 0
+  display: flex
+  justify-content: center
+
+.page
+  box-sizing: border-box
+  width: 8.5in
+
+.page-content
+  margin: 0.4in
 
 h1, h2, h3, h4, p
   margin: .3em 0
 
 @page
+  size: letter
   margin: 0.4in
+
+@media print
+  .page-content
+    margin: 0
 
 h1
   font-size: 2.441em
@@ -33,17 +50,19 @@ small
 a
   color: black
 
+.main
+  display: flex
+  justify-content: space-between
+
 .left, .right
   box-sizing: border-box
 
 .left
   width: 58%
-  float: left
   padding-right: 1em
 
 .right
   width: 42%
-  float: right
   padding-left: 1em
 
 .header

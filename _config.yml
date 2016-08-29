@@ -21,3 +21,7 @@ url: "https://portfolio.djones.co" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - "build"
+  - "upload"

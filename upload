@@ -1,0 +1,1 @@
+rsync -av --delete _site/ titan.djones.co:servers/portfolio.djones.co/resume/

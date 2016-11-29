@@ -1,4 +1,3 @@
-rsync -av --delete _site/ titan.djones.co:servers/portfolio.djones.co/resume/
 docker run --rm \
   -u $(id -u):$(id -g) \
   -e HOME \

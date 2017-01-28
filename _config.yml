@@ -16,8 +16,8 @@
 title: Daniel Jones
 email: tortxof@gmail.com
 description: ""
-baseurl: "/resume" # the subpath of your site, e.g. /blog
-url: "https://portfolio.djones.co" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://resume.djones.co.s3-website-us-east-1.amazonaws.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -25,3 +25,4 @@ markdown: kramdown
 exclude:
   - "build"
   - "upload"
+  - "deploy.yaml"
